@@ -1,0 +1,49 @@
+.destinations{
+    margin: 80px 90px;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    grid-gap: 1rem;
+
+}
+.destination{
+    flex-basis: 31%;
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 1rem;
+}
+.destination img{
+    width: 100%;
+    border-radius: 10px;
+    display: block;
+    height: 200px;
+}
+.caption{
+    border-radius: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: rgba(158, 159, 175, 0.35);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #fff;
+    cursor: pointer;
+    opacity: 0;
+    padding-top: 70%;
+    transition: 0.4s;
+}
+.caption img{
+    width: 60px;
+    margin-bottom: 5px;
+    color: #fff;
+}
+.destination:hover .caption{
+    opacity: 1;
+    padding-top: 0;
+}
