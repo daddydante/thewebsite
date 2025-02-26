@@ -34,6 +34,9 @@ body{
   background-color: #212ea0;
   color: #fff;
 }
+.dest-btn{
+  border: 0;
+}
 
 
 @media (max-width:1200px){

@@ -42,19 +42,20 @@
     color: #676767;
     line-height: 1.4;
 }
-.slide img{
-    height: 65px;
-    width: 65px;
-    border-radius: 50%;
-    margin-right: 10px;
-    border: 4px solid #212ea0;
-}
+
 .user-info{
     display: flex;
     align-items: center;
     margin-bottom: 20px;
     font-size: 15px;
     color: white;
+}
+.user-info img{
+    height: 65px;
+    width: 65px;
+    border-radius: 50%;
+    margin-right: 10px;
+    border: 4px solid #212ea0;
 }
 .user-info h3{
     color: #8f9cf5;
