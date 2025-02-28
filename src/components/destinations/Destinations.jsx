@@ -50,7 +50,7 @@ const Destinations = () => {
           <img src={opera} alt="" />
           <div className="caption">
             <img src={aussie} alt="" />
-            <p>Australia</p>
+            <p>Australasia</p>
           </div>
         </Link>
         <Link to='./highseas' className="destination">

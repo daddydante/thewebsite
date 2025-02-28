@@ -2,6 +2,7 @@ import React from 'react'
 import Carousel from 'react-bootstrap/Carousel';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './Americas.css'
+import { Link } from "react-router-dom";
 // import Navbar from '../navbar/Navbar'
 import Footer from '../footer/Footer'
 import liberty from '../../assets/liberty.jpg'
@@ -56,7 +57,7 @@ const Americas = () => {
                  and the towering Empire State Building. Explore diverse neighborhoods, savor world-class food, and feel the city's pulse—history,
                   culture, and energy packed into every block. Unforgettable, fast-paced, and quintessentially American.
                   <br />
-                  <button className='btn'>Book Now</button>
+                  {/* <button className='btn'>Book Now</button> */}
                 </Accordion.Body>
               
               </Accordion.Item>
@@ -67,7 +68,7 @@ const Americas = () => {
                  ruins, revealing ancient stone structures, terraced fields, and panoramic views. Guided insights into its history and mystery make this
                   UNESCO site an unforgettable adventure.
                   <br />
-                  <button className='btn'>Book Now</button>
+                  {/* <button className='btn'>Book Now</button> */}
                 </Accordion.Body>
                 
               </Accordion.Item>
@@ -78,9 +79,10 @@ const Americas = () => {
                  and Ipanema beaches, and ride the cable car to Sugarloaf Mountain for panoramic views. Explore historic Santa Teresa, enjoy Carnival vibes,
                   and savor local cuisine amidst a lively, scenic backdrop.
                   <br />
-                  <button className='btn'>Book Now</button>
+                  {/* <Link to='./bookings'><button className='btn'>Book Now</button></Link> */}
                 </Accordion.Body>
               </Accordion.Item>
+              <Link to='/bookings'><button className='btn'>Book Now</button></Link>
             </Accordion>
         </div>
     <Footer/>       
